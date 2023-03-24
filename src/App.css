@@ -1,0 +1,98 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(180deg, rgb(67, 174, 255), rgb(192, 255, 230));
+}
+
+.back{
+  background-color: white;
+  width: 600px;
+  padding: 20px;
+
+}
+
+#title{
+  color: rgb(0, 55, 84);
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  font-style: italic;
+}
+
+.todolist{
+  list-style: none;
+  margin: 10pc 0 0;
+  padding: 5px;
+  height: 300px;
+  overflow: auto;
+  cursor: pointer;
+}
+.todolist::-webkit-scrollbar{
+  display: none;
+}
+
+.item{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(197, 206, 223);
+  color: rgb(51, 0, 85);
+
+}
+.item + .item{
+  margin-top: 5px;
+  border-top: 1px solid rgb(0, 0, 0);
+  padding-top: 5px;
+
+}
+#ADD{
+  background-color: rgb(3, 128, 196);
+  border-color: white;
+  color: white;
+  width: 96px;
+  font-size: 15px;
+  height: 35px;
+  border-color:rgb(178, 209, 255);
+}
+#ADD:hover{
+  cursor: pointer;
+  background-color:  rgb(178, 209, 255);
+
+  color: rgb(51, 0, 85);
+}
+
+#ADD2{
+  background-color: rgb(139, 50, 255);
+  border-color: white;
+  color: white;
+  width: 45px;
+  font-size: 15px;
+  height: 35px;
+  border-color:rgb(178, 209, 255);
+}
+
+#Campo{
+  width: 500px;
+  height: 35px;
+  border: 0vh;
+  background-color: rgb(223, 244, 255);
+  text-decoration-color: white;
+  border-color: rgb(3, 128, 196);
+}
+#Campo:hover{
+  cursor: pointer;
+  border: white;
+  background-color: rgb(178, 209, 255);
+  border: 0;
+}
+
+
+
+
+
+
+
+
+
+
