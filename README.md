@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -73,3 +74,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 # ToDoList
 #Esse ToDoList foi feito a fim de colocarmos em prática o conhecimento adquirido com REACT na Empresa Júnior Orc'estra Gamificação no Processo Trainee!
 >>>>>>> cad964e94d65c70823f6371e09d07520d08b764d
+=======
+ToDoList
+Esse ToDoList foi feito a fim de colocarmos em prática o conhecimento adquirido com REACT na Empresa Júnior Orc'estra Gamificação no Processo Trainee!
+>>>>>>> b0344ac7c418317ee68d6b7011ee4bf15d84bb78
